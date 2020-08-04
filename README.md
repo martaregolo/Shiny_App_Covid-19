@@ -1,4 +1,4 @@
-#Dashboard Shiny
+# Dashboard Shiny
 
 For my master project, I design and implement a dashboard in R Shiny for the visualization of all information about the COVID-19 epidemic. 
 I use three tools of the Exploratory Data Analysis: a leaflet map, a bar plot, and a time series.
