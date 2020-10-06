@@ -10,7 +10,6 @@ library(maptools)
 library (readr)
 library(stringr)
 
-#setwd("C:/Users/secon/Documents/R/TESI/tesi")
 
 #read the Italian population at Jan 1st 2019 (ISTAT SOURCE)
 popolazioneMF_df=read.csv(url("https://raw.githubusercontent.com/martaregolo/Shiny_App_Covid-19/master/PopolazioneRegioni20190101.csv"), header=TRUE)
@@ -67,7 +66,7 @@ region_dataset<-mutate(region_dataset,n_casi_testati_normalizzato=round(10^5*var
 #computes the ratio "isolamento_domiciliare/totale_positivi" and attachs columns to the dataset
 region_dataset<-mutate(region_dataset,p_isolamento_domiciliare=round(isolamento_domiciliare/totale_positivi,3))
 for (i in 1: nrow(region_dataset)){
-        if((is.infinite(region_dataset$p_isolamento_domiciliare[i])) || (is.nan(region_dataset$p_isolamento_domiciliare[i]))|| (is.na(region_dataset$p_isolamento_domiciliare[i]))){  #questa cosa solo perchè non c'è ancora il conditional panel in regioni
+        if((is.infinite(region_dataset$p_isolamento_domiciliare[i])) || (is.nan(region_dataset$p_isolamento_domiciliare[i]))|| (is.na(region_dataset$p_isolamento_domiciliare[i]))){  #questa cosa solo perchÃ¨ non c'Ã¨ ancora il conditional panel in regioni
                 region_dataset$p_isolamento_domiciliare[i]<-0
         }
 }
@@ -79,7 +78,7 @@ region_dataset<-mutate(region_dataset,n_positivi_giornalieri_normalizzato=10^5*n
 region_dataset<-mutate(region_dataset, p_nuovi_positivi=round(nuovi_positivi/variazione_casi_testati,4))
 #if we have 0/0 or something/0
 for (i in 1: nrow(region_dataset)){
-        if((is.infinite(region_dataset$p_nuovi_positivi[i])) || (is.nan(region_dataset$p_nuovi_positivi[i]))|| (is.na(region_dataset$p_nuovi_positivi[i]))){ #il na solo perchè non c'è ancora il conditional panel in regioni
+        if((is.infinite(region_dataset$p_nuovi_positivi[i])) || (is.nan(region_dataset$p_nuovi_positivi[i]))|| (is.na(region_dataset$p_nuovi_positivi[i]))){ #il na solo perchÃ¨ non c'Ã¨ ancora il conditional panel in regioni
                 region_dataset$p_nuovi_positivi[i]<-0
         }
 }
