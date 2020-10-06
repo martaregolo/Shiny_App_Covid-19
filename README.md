@@ -31,7 +31,7 @@ The Dashboard is composed by two tabs.
 
 ## First Tab
 
-The first tab allows the user to visualise the evolution of each parameter for zones (Italy, Nord, Center, South and Islands).
+The first tab allows the user to visualise the evolution of each parameter by zones (Italy, Nord, Center, South and Islands).
 
 ![Test](https://github.com/martaregolo/Shiny_App_Covid-19/blob/master/overall.PNG)
 
