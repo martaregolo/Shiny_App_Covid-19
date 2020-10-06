@@ -36,6 +36,6 @@ The first tab allows the user to visualise the evolution of each parameter for z
 ![Test](https://github.com/martaregolo/Shiny_App_Covid-19/blob/master/overall.PNG)
 
 ## Second Tab
-The second tab illustrates the evolution of three main parameters, that are *new positives*, *normalised number of daily positives" and *normalised number of tested cases*. 
+The second tab illustrates the evolution of three main parameters, that are *new positives*, *normalised number of daily positives* and *normalised number of tested cases*. 
 
 ![Test](https://github.com/martaregolo/Shiny_App_Covid-19/blob/master/tab2.PNG)
