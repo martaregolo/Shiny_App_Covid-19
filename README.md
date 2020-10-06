@@ -9,9 +9,9 @@ https://regolomarta.shinyapps.io/tesi/
 
 ## Data collection and preparation
 
-The data were available from the Civil Protection Department [repository](https://github.com/pcm-dpc/COVID-19) on Github.
+First of all, data were collected. The database was available from the Civil Protection Department [repository](https://github.com/pcm-dpc/COVID-19) on Github.
 The interesting document for the study was that with all the data collected on a regional basis.
-This file has 18 fields with information about state, region, regional code, date, latitude, longitude and the relevant parameters such as:
+This file had 18 fields with information about region, regional code, date, latitude, longitude and the relevant parameters such as:
 * Hospitalized with symptoms;
 * Intensive care;
 * Total hospitalized;
@@ -20,15 +20,19 @@ This file has 18 fields with information about state, region, regional code, dat
 * New positives;
 * Discharged healed;
 * Total positive change;
-* Deceaseds;
+* Deceased;
 * Total cases;
 * Swabs;
 * Tested cases.
 
+Second, to conduct the study, data were additionally manipulated and new statistics have been defined, such as: *percentage of tested cases*,*percentage of intensive care* and *normalised number of tested cases*.
 
+The Dashboard is composed by two tabs. 
 
 ## First Tab
 
+The first tab allows the user to visualise the evolution of each parameter for zones (Italy, Nord, Center, South and Islands).
 ![Test](https://github.com/martaregolo/Shiny_App_Covid-19/blob/master/overall.PNG)
 
-
+The second tab illustrates the evolution of three main parameters, that are *new positives*, *normalised number of daily positives" and *normalised number of tested cases*. 
+![Test](https://github.com/martaregolo/Shiny_App_Covid-19/blob/master/tab2.PNG)
