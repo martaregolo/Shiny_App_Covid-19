@@ -8,4 +8,4 @@ The app is available here:
 
 https://regolomarta.shinyapps.io/tesi/
 
-![Test](overall.png)
+![Test](https://github.com/martaregolo/Shiny_App_Covid-19/blob/master/overall.PNG)
