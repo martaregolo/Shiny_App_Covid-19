@@ -8,3 +8,4 @@ The app is available here:
 
 https://regolomarta.shinyapps.io/tesi/
 
+![Test](overall.png)
