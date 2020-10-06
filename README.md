@@ -45,7 +45,7 @@ The second tab illustrates the evolution of three main parameters, that are *new
 The required files to run the dashboard are in the folder *R_files* of this repository. Inside the folder, there are three files:
 
 * *map.R*, which includes the code to read the data source, manipulate the data and create the completed dataset. Additionally, the last part of this file contains the code to create a spatial object for the Italian map;
-* *ui.R*, which controls design and layout of the dashboard;
+* *ui.R*, which controls the design and layout of the dashboard;
 * *server.R*, which gives the necessary instructions to create the app.
 
 In order to run the app locally, you need to download these files and open them on R studio.
