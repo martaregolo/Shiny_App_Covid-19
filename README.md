@@ -3,7 +3,7 @@
 For my master project, I designed and implemented a dashboard in R Shiny for the data visualization about the COVID-19 epidemic. 
 I used three Exploratory Data Analysis tools: a leaflet map, a bar plot, and a time series. Besides, I used control charts, that are statistical process control tools, to monitor the path of some statistics.
 
-The app is available here:
+**The app is available here:**
 
 https://regolomarta.shinyapps.io/tesi/
 
